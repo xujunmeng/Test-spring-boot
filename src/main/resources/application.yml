@@ -1,3 +1,10 @@
 server:
   port: 8080
   context-path: /springboot
+synchronize: true
+abc:
+  property: true
+
+spring:
+  profiles:
+    active: DEV
