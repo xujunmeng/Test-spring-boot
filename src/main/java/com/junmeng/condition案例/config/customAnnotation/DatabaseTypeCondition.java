@@ -10,7 +10,7 @@ import java.util.Map;
  * @author james
  * @date 2018/11/27
  */
-public class DatabaseTypeCondition  implements Condition {
+public class DatabaseTypeCondition implements Condition {
 
     @Override
     public boolean matches(ConditionContext conditionContext, AnnotatedTypeMetadata metadata) {
